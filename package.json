@@ -1,0 +1,26 @@
+{
+  "name": "mazaj-tokyo",
+  "version": "1.0.0",
+  "description": "Premium Shisha Cafe Website for Mazaj Tokyo",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "shisha",
+    "cafe",
+    "tokyo",
+    "website",
+    "lounge"
+  ],
+  "author": "Mazaj Tokyo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mazaj-tokyo.git"
+  }
+}
+
+
+

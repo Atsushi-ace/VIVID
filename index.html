@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シーシャ カフェ&バー Mazaj（マザージ）Tokyo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./image folder/MZJ_logo.png" alt="Mazaj Logo" class="header-logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">トップページ</a></li>
+                <li><a href="#topics" class="nav-link">トピックス</a></li>
+                <li><a href="#system" class="nav-link">システム</a></li>
+                <li><a href="#flavors" class="nav-link">フレーバー</a></li>
+                <li><a href="#food-drink" class="nav-link">フード&ドリンク</a></li>
+                <li><a href="#reservation" class="nav-link">ご予約</a></li>
+                <li><a href="#enjoy-mazaj" class="nav-link">Mazajを楽しむ</a></li>
+                <li><a href="#info" class="nav-link">店舗情報</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section id="home" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('./image folder/MZJ_Store1.jpg'); background-position: center 75%;">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Maison Mazaj Vivid</h1>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./image folder/GIRLS.jpg'); background-position: center center;">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Premium Shisha Experience<br>in Tokyo</h1>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./image folder/MZJ_Store3.jpg')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Relax & Enjoy<br>with best shisha in Tokyo</h1>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="slider-btn prev" id="prevBtn">‹</button>
+            <button class="slider-btn next" id="nextBtn">›</button>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+        <div class="scroll-text">SCROLL</div>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics" class="topics-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Topics</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="topics-slider-container">
+                <div class="topics-slider">
+                    <div class="topic-card">
+                        <div class="topic-image">
+                            <img src="./image folder/MZJ_Rpg.png" alt="Location" class="topic-img">
+                        </div>
+                        <div class="topic-content">
+                            <h3>落ち着いた空間での大人シーシャが六本木にOPEN！</h3>
+                            <p>六本木駅から徒歩2分の好立地にある本格シーシャバーです。</p>
+                        </div>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-image">
+                            <img src="./image folder/Flavours.png" alt="Flavours" class="topic-img">
+                        </div>
+                        <div class="topic-content">
+                            <h3>Tokyoでゆったりシーシャを楽しむなら</h3>
+                            <p>Mazajは、シーシャ初めての方～上級者まで、ゆったり落ち着いた空間でお楽しみいただけます。</p>
+                        </div>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-image">
+                            <img src="./image folder/MZJ_Cocktail.png" alt="Cocktail" class="topic-img">
+                        </div>
+                        <div class="topic-content">
+                            <h3>BARとしてのご利用も大歓迎！！</h3>
+                            <p>豊富なドリンクを取り揃えながら、お気軽にお楽しみいただけます。シーシャなしでもご利用いただけます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System/Pricing Section -->
+    <section id="system" class="system-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">麻布十番駅より徒歩5分、六本木から徒歩7分のシーシャバー</h2>
+            </div>
+            <div class="system-content">
+                <div class="pricing-box">
+                    <h3>▼シーシャ基本料金▼</h3>
+                    <ul>
+                        <li>¥4,400(with tax)</li>
+                        <li class="highlight">・一台につき2人までシェア可能</li>
+                        <li class="highlight">・ワンドリンクオーダー制</li>
+                    </ul>
+                </div>
+                <div class="pricing-box">
+                    <h3>▼深夜料金(22時-5時)▼</h3>
+                    <ul>
+                        <li>・テーブルチャージ¥1,000/per</li>
+                        <li>・サービス料10%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flavors Section -->
+    <section id="flavors" class="flavors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Flavors</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="flavors-intro">
+                <p>50種類以上のフレーバーの中から、お気に入りのフレーバーを見つけていただけます。ニコチン無しや、希少フレーバー (¥1,100)もございますので、ご希望の方はスタッフへお声かけください。</p>
+            </div>
+            <div class="flavors-grid">
+                <div class="flavor-card">
+                    <div class="flavor-icon">
+                        <img src="./image folder/ALFAKHER_.webp" alt="Al Fakher" class="flavor-img">
+                    </div>
+                    <h3>アルファーヘル</h3>
+                    <p>プレミアムシーシャブランド</p>
+                </div>
+                <div class="flavor-card">
+                    <div class="flavor-icon">
+                        <img src="./image folder/afzal.png.webp" alt="Afzal" class="flavor-img">
+                    </div>
+                    <h3>アフザル</h3>
+                    <p>高品質なフレーバー</p>
+                </div>
+                <div class="flavor-card">
+                    <div class="flavor-icon">
+                        <img src="./image folder/アヒル.jpeg" alt="Non-nicotine Ahiru" class="flavor-img">
+                    </div>
+                    <h3>ノンニコチン アヒル</h3>
+                    <p>ニコチンフリーブランド</p>
+                </div>
+            </div>
+            <div class="more-link-container">
+                <a href="flavors.html" class="more-link">フレーバー詳細を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food & Drink Section -->
+    <section id="food-drink" class="food-drink-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Food & Drinks</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="fd-intro">
+                <p>ドリンクメニューも充実。アルコールはもちろん、豆挽きコーヒーやチャイなど豊富にご用意しております。</p>
+            </div>
+            <!-- Beverage Menu with Toggle Lists -->
+            <div class="beverage-menu">
+                <!-- Soft Drink Section -->
+                <div class="menu-category">
+                    <div class="category-header" data-category="soft-drink">
+                        <h3>Soft Drink</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="category-content" id="soft-drink">
+                        <!-- Coffee Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="coffee">
+                                <h4>Coffee</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="coffee">
+                                <div class="menu-item">
+                                    <h5>Black Coffee (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Cafe Au Lait (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Tea Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="tea">
+                                <h4>Tea</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="tea">
+                                <div class="menu-item">
+                                    <h5>Original Chai (Iced/Hot)</h5>
+                                    <p class="price">¥1,100</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Jasmine Tea (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Rooibos Tea (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Apple Tea (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Oolong Tea (Iced/Hot)</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Green Tea (Iced/Hot)</h5>
+                                    <p class="price">¥1,100</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Hojicha (Iced/Hot)</h5>
+                                    <p class="price">¥1,100</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Juice Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="juice">
+                                <h4>Juice</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="juice">
+                                <div class="menu-item">
+                                    <h5>Orange Juice</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Mango Juice</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Guava Juice</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Mineral Water</h5>
+                                    <p class="price">¥550</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Coke</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Ginger Ale</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Sparkling Water</h5>
+                                    <p class="price">¥880</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Red Bull</h5>
+                                    <p class="price">¥1,100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alcohol (Bottle) Section -->
+                <div class="menu-category">
+                    <div class="category-header" data-category="alcohol-bottle">
+                        <h3>Alcohol (Bottle)</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="category-content" id="alcohol-bottle">
+                        <!-- Champagne Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="champagne">
+                                <h4>Champagne</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="champagne">
+                                <div class="menu-item">
+                                    <h5>ORIGINAL</h5>
+                                    <p class="price">¥30,000</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>PJ</h5>
+                                    <p class="price">¥30,000</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Belle Époque</h5>
+                                    <p class="price">¥80,000</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Belle Époque Rose</h5>
+                                    <p class="price">¥160,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Wine Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="wine-bottle">
+                                <h4>Wine</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="wine-bottle">
+                                <div class="menu-item">
+                                    <h5>White Wine</h5>
+                                    <p class="price">¥30,000</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Red Wine</h5>
+                                    <p class="price">¥30,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cocktail Section -->
+                <div class="menu-category">
+                    <div class="category-header" data-category="cocktail">
+                        <h3>Cocktail</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="category-content" id="cocktail">
+                        <!-- Tequila Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="tequila">
+                                <h4>Tequila</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="tequila">
+                                <div class="menu-item">
+                                    <h5>Anejo 1800 Bottle</h5>
+                                    <p class="price">¥70,000</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Anejo 1800 1 shot</h5>
+                                    <p class="price">¥1,500</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Beer Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="beer">
+                                <h4>Beer</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="beer">
+                                <div class="menu-item">
+                                    <h5>Corona Extra</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Vodka Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="vodka">
+                                <h4>Vodka</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="vodka">
+                                <div class="menu-item">
+                                    <h5>Screwdriver</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Vodka Coke</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Moscow Mule</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Gin Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="gin">
+                                <h4>Gin</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="gin">
+                                <div class="menu-item">
+                                    <h5>Gin Tonic</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Gin Buck</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Wine (Single) Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="wine-single">
+                                <h4>Wine</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="wine-single">
+                                <div class="menu-item">
+                                    <h5>Kitty</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Fruity Subcategory -->
+                        <div class="subcategory">
+                            <div class="subcategory-header" data-subcategory="fruity">
+                                <h4>Fruity</h4>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="subcategory-content" id="fruity">
+                                <div class="menu-item">
+                                    <h5>Cassis Orange</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Cassis Oolong</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Cassis Soda</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Reggae Punch</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Fuzzy Navel</h5>
+                                    <p class="price">¥1,100 (with tax)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-link-container">
+                <a href="#" class="more-link">もっと見る</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Enjoy Mazaj Section -->
+    <section id="enjoy-mazaj" class="enjoy-mazaj-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Enjoy Mazaj</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="enjoy-content">
+                <div class="enjoy-text">
+                    <p>Mazajで最高の時間をお過ごしいただくために、いくつかのポイントをご案内いたします。</p>
+                    <p>初めての方でも安心してご利用いただけるよう、スタッフが丁寧にサポートいたします。</p>
+                </div>
+                <div class="enjoy-details-link">
+                    <a href="enjoy-mazaj.html" class="details-link">詳細はこちら</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section id="reservation" class="reservation-cta">
+        <div class="container">
+            <div class="reservation-text">
+                <p>ご予約はInstagramまたはLINEから受け付けております。</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://www.instagram.com/maisonmazaj_vivid/" class="cta-btn instagram-btn">
+                    <span class="cta-icon">📷</span>
+                    <span class="cta-text">Instagramで最新情報をチェック<br><strong>@maisonmazaj_vivid</strong></span>
+                </a>
+                <a href="https://line.me/ti/p/DKX2_DpTS3" class="cta-btn line-btn">
+                    <span class="cta-icon">💬</span>
+                    <span class="cta-text">LINEでお気軽にお問い合わせ<br><strong>友だち追加はこちら</strong></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Info Section -->
+    <section id="info" class="store-info">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Store Information</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="store-details">
+                <div class="store-image">
+                    <div class="store-placeholder">
+                        <img src="./image folder/StoreFront.jpg" alt="Store Front" class="store-front-image">
+                    </div>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0148975377827!2d139.73246331525816!3d35.65847698019576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8b5a4b9c4d%3A0x2f4e8e8e8e8e8e8e!2sRoppongi%2C%20Minato%20City%2C%20Tokyo!5e0!3m2!1sen!2sjp!4v1641234567890!5m2!1sen!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="store-text">
+                    <h3>シーシャ カフェ&バー Mazaj（マザージ）Tokyo</h3>
+                    <div class="info-item">
+                        <h4>住所</h4>
+                        <p>106-0032<br>
+                        港区六本木5-18-22 forceビル6F</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>アクセス</h4>
+                        <p>六本木駅徒歩5分<br>麻布十番駅徒歩5分</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>営業時間</h4>
+                        <p>24時間</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>決済方法</h4>
+                        <div class="payment-methods">
+                            <span class="payment-icon">💳</span>
+                            <span>現金orカード</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <h3>シーシャ カフェ&バー Mazaj（マザージ）Tokyo</h3>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#home">トップページ</a></li>
+                    <li><a href="#topics">トピックス</a></li>
+                    <li><a href="#system">システム</a></li>
+                    <li><a href="#flavors">フレーバー</a></li>
+                    <li><a href="#food-drink">フード&ドリンク</a></li>
+                    <li><a href="#enjoy-mazaj">Mazajを楽しむ</a></li>
+                    <li><a href="#info">店舗情報</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 シーシャ カフェ&バー Mazaj（マザージ）Tokyo. All rights reserved.</p>
+                <a href="#" class="policy-link">サイトポリシー</a>
+            </div>
+            <button class="page-top" id="pageTop">page top</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
